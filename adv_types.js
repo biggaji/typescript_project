@@ -1,3 +1,4 @@
+"use strict";
 // union types
 /* it helps in situations where we accept two or more different type of value e.g (number | string).
 */
@@ -5,7 +6,7 @@
 // Example
 function combineInputs(input1, input2) {
     /*here you might decide a logic based on the value type you are getting. e.g. for a number, you might use an if statement to check the typeof the input,  then use any of the math operator you want, or if it's a string, you might want to convert each inputs toString before concatenating it*/
-    var result;
+    let result;
     if (typeof input1 === 'number' && typeof input2 === 'number') {
         result = input1 + input2;
     }
@@ -14,9 +15,9 @@ function combineInputs(input1, input2) {
     }
     return result;
 }
-var numSum = combineInputs(4, 6);
+let numSum = combineInputs(4, 6);
 console.log(numSum);
-var strSum = combineInputs("I love", "you!");
+let strSum = combineInputs("I love", "you!");
 console.log(strSum);
 // literial type
 //Note - Google this!
