@@ -1,6 +1,7 @@
-var btn = document.querySelector('#btn');
-var num1 = document.querySelector('#num1');
-var num2 = document.querySelector('#num2');
+"use strict";
+let btn = document.querySelector('#btn');
+let num1 = document.querySelector('#num1');
+let num2 = document.querySelector('#num2');
 function add(num1, num2) {
     return num1 + num2;
 }

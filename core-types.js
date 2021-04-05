@@ -1,5 +1,6 @@
+"use strict";
 //typescript core types example
-var me = {
+const me = {
     firstname: "Tobiloba",
     lastname: "Ajibade",
     age: 21,
@@ -9,7 +10,7 @@ var me = {
 // Note it is better syntax to let type script inference the object type itself
 console.log(me.age);
 // array type can be flexible or strict
-var data = ["Tobiloba"]; //string[]
+const data = ["Tobiloba"]; //string[]
 // tuples type - looks like an array, but it is a fixed length and fixed type array;
 // can be [numeric identifier, string identifier];
 // example : let roles = [2, "Am a tuple value"];

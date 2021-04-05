@@ -1,4 +1,4 @@
-let btn = document.querySelector('#btn');
+let btn = document.querySelector('#btn')!;
 let num1 = document.querySelector('#num1')! as HTMLInputElement;
 let num2 = document.querySelector('#num2')! as HTMLInputElement;
 
